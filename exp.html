@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+
+<body>
+    <div class="order-list-data">
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ol>
+    </div>
+    <div class="unorder-list-data">
+        <ul type="circle">
+            <li>Lasan</li>
+            <li>Nimbu</li>
+            <li>Marcha</li>
+            <li>Batata</li>
+        </ul>
+    </div>
+    <div class="dis-list">
+        <dl>
+            <dt>Animal Name</dt>
+            <dd>Cow</dd>
+            <dd>buffalo</dd>
+            <dd>dog</dd>
+            <dt>Bird Name</dt>
+            <dd>Parrot</dd>
+            <dd>Crow</dd>
+        </dl>
+    </div>
+
+    <div class="table-exp">
+        <table border>
+            <thead>
+                <tr>
+                    <th>Emp No</th>
+                    <th>Emp Name</th>
+                    <th>Emp Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>123</td>
+                    <td>JK</td>
+                    <td>100000</td>
+                </tr>
+                <tr>
+                    <td>235</td>
+                    <td>Mohd</td>
+                    <td>200000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br><br>
+    <div class="form-exp">
+        <form action="">
+            <label for="name-text">Name</label>
+            <input type="text" id="name-text">
+            <label for="">Email</label>
+            <input type="email">
+            <label for="">Password</label>
+            <input type="password">
+            <br> <br>
+            <label for="">Age</label>
+            <input type="number" max="60" min="18">
+            <label for="">DOB</label>
+            <input type="date">
+            <p>Favorite food</p>
+            <label for="select-biryani">Biryani</label>
+            <input type="checkbox" id="select-biryani"><br>
+            <label for="select-tandoori">Tandoori</label>
+            <input type="checkbox" id="select-tandoori"><br>
+            <label for="select-fish">Fish</label>
+            <input type="checkbox" id="select-fish"> <br> <br> <br>
+            <label for="">Gender</label> <br>
+            <label for="">Male</label>
+            <input type="radio" name="Gender"> <br>
+            <label for="">Female</label>
+            <input type="radio" name="Gender"> <br>
+            <label for="">Other</label>
+            <input type="radio" name="Gender"> <br> <br>
+            <label for=""> Upload a File</label>
+            <input type="file">
+            <br><br>
+            <label for="">Choose Color</label>
+            <input type="color"> <br> <br>
+            <input type="submit" value="Login"> <br><br>
+
+
+            <div class="select-list-exp">
+                <label for="">Select Country</label>
+                <select>
+                    <option value="">--- Select below country ---</option>
+                    <option value="">India</option>
+                    <option value="">Pak</option>
+                    <option value="">China</option>
+                    <option value="">US</option>
+                    <option value="">UK</option>
+                </select>
+                <br><br><br>
+                <!-- <label for="Browser"> Select Browser</label>
+                <input list="Browser" name="Browser" id="Browser">
+                <datalist id="Browser">
+                    <option value="Chrome">
+                    <option value="FireFox">
+                    <option value="IE">
+                    <option value="Edge">
+                </datalist> -->
+                <label for="browser">Select Browser</label>
+                <input list="browsers" name="browser" id="browser">
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    
+                    <option value="Safari">
+                </datalist>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
